@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+
+<body>
+    <header>
+        <h1 align="center">Student Registration</h1>
+    </header>
+    <hr>
+    <main>
+        <h2 align="center">Application Form</h2>
+        <form action="Submit registration" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" required><br><br>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" required><br><br>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob" id="dob"><br><br>
+                <label>Gender:</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Academic Details</legend>
+                <label for="course">Select Course:</label>
+                <select name="course" id="course">
+                    <option value="BIT">Bachelors in Information Technology</option>
+                    <option value="BBA">BBA Digital Business Management</option>
+                    <option value="BBI">BBA International Business</option>
+                    <option value="BBM">BBA Advertising and Marketing</option>
+                    <option value="BSC">BSc(Hons)Computing</option>
+                    <option value="BS">Bachelors in Software Development</option>
+                </select><br><br>
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email" placeholder="abcd@gmail.com">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Additional Information</legend>
+                <p>Skills(Check all that apply):</p>
+                <input type="checkbox" name="skills" id="coding" value="coding">
+                <label for="coding">Coding</label>
+                <input type="checkbox" name="skills" id="design" value="design">
+                <label for="design">Design</label><br><br>
+                
+                <label for="address">Address:</label><br>
+                <input type="text" name="address" id="address">
+            </fieldset>
+            <br>
+            <button type="submit">Submit Application</button>
+            <button type="reset">Reset Form</button>
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <p align="center">&copy;Itahari International College</p>
+    </footer>
+</body>
+
+</html>
